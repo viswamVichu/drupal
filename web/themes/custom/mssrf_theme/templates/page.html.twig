@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site_name }}</title>
+  {{ attach_library('mssrf_theme/global-styling') }} {# This loads the CSS #}
+</head>
+<body>
+
+  {% include "@mssrf_theme/header.html.twig" %}
+
+  <main class="homepage-container">
+    <section class="hero">
+      <h1>Welcome to {{ site_name }}</h1>
+      <p>Your tagline or description here.</p>
+      <a href="/about" class="btn">Learn More</a>
+    </section>
+
+    <section class="features">
+      <h2>Our Features</h2>
+      <p>Some text about features</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@example.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ "now"|date("Y") }} {{ site_name }}. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

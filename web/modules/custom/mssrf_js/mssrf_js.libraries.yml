@@ -1,0 +1,5 @@
+custom_js:
+  js:
+    js/mssrf-block.js: {}
+  dependencies:
+    - core/jquery

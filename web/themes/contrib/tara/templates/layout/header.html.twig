@@ -1,0 +1,21 @@
+<header>
+  <!-- SVG Header Background -->
+  <div class="header-background">
+    <img src="{{ base_path ~ directory }}/images/header.svg" alt="Header Image">
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul class="menu">
+      <li><a href="{{ path('<front>') }}">Home</a></li>
+      <li class="dropdown">
+        <a href="#">About Us</a>
+        <ul class="submenu">
+          <li><a href="{{ path('entity.node.canonical', {'node': 2}) }}">Our Team</a></li>
+          <li><a href="{{ path('entity.node.canonical', {'node': 3}) }}">Mission</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ path('contact.site_page') }}">Contact</a></li>
+    </ul>
+  </nav>
+</header>

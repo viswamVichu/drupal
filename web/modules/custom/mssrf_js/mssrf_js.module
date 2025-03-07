@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\Core\Block\BlockPluginInterface;
+
+/**
+ * Implements hook_block_view_alter().
+ */
+function mssrf_js_block_view_alter(array &$build, BlockPluginInterface $block) {
+  if (!empty($build['#attributes']['class']) && in_array('mssrf-block', $build['#attributes']['class'])) {
+    $build['#attached']['library'][] = 'mssrf_js/custom_js';
+  }
+}

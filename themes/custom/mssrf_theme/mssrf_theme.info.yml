@@ -1,0 +1,12 @@
+name: 'MSSRF Theme'
+type: theme
+description: 'Custom theme for MSSRF'
+core_version_requirement: ^10
+base theme: stable9
+package: Custom
+libraries:
+  - mssrf_theme/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

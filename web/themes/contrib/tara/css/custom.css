@@ -1,0 +1,14 @@
+.region-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-site-branding {
+  flex: 0 0 auto; /* Keeps logo size fixed */
+}
+
+.block-menu {
+  flex: 1;
+  text-align: right; /* Aligns the navbar to the right */
+}

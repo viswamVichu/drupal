@@ -1,0 +1,4 @@
+name: 'MSSRF JS'
+type: module
+core_version_requirement: ^10
+description: 'Adds custom JavaScript for the MSSRF team block.'

@@ -1,0 +1,11 @@
+<?php
+/**
+ * Implements hook_block_info().
+ */
+function my_custom_block_block_info() {
+  $blocks['my_custom_block'] = array(
+    'info' => t('My Custom Block'),
+  );
+  return $blocks;
+}
+
