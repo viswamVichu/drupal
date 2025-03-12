@@ -1,0 +1,7 @@
+name: 'My Custom Module'
+type: module
+description: 'A custom module for displaying latest articles.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - node

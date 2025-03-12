@@ -1,0 +1,7 @@
+---
+name: 'My Feature'
+type: module
+description: 'A custom module for Drupal'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies: []

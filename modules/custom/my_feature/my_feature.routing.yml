@@ -1,0 +1,7 @@
+my_feature.example:
+  path: '/my-feature'
+  defaults:
+    _controller: '\Drupal\my_feature\Controller\MyFeatureController::content'
+    _title: 'My Feature'
+  requirements:
+    _permission: 'access content'

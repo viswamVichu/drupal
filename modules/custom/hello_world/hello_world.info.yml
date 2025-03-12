@@ -1,0 +1,6 @@
+name: 'Hello World'
+type: module
+description: 'A simple Drupal module to render Hello, World!'
+core_version_requirement: ^10
+package: Custom
+dependencies: []
